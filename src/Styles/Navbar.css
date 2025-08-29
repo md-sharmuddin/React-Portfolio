@@ -1,0 +1,94 @@
+/* .navbar{
+    width: 100vw;
+    display: flex;
+    background-color:#1f1f2e;
+    justify-content: space-around;
+    position: fixed;
+    border: 0.09px solid rgba(0, 0, 0, 0.295)
+} 
+ */
+
+
+ /* .navbar {
+  width: 100vw;
+  display: flex;
+  background-color: #1f1f2e;
+  justify-content: space-around;
+  position: fixed;
+  border: 0.09px solid rgba(0, 0, 0, 0.295);
+} */
+
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:#1f1f2e;
+  padding: 8px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Left (logo + title) */
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.name img {
+  width: 32px;
+  height: 28px;
+  margin-right: 6px;
+}
+
+.name h2 {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Right (menu items in row) */
+.items {
+  display: flex;
+  gap: 12px;
+}
+
+.items a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.items a:hover {
+  color: #00adb5;
+}
+
+/* ✅ Mobile friendly adjustments */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 6px 10px;
+  }
+
+  .name h2 {
+    font-size: 14px;
+  }
+
+  .items {
+    gap: 8px;
+  }
+
+  .items a {
+    font-size: 12px;
+  }
+}
+
+
+.items {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;   /* ✅ wrap instead of overflowing */
+  max-width: 100%;
+}
