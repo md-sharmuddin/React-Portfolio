@@ -22,13 +22,7 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/mohammed-sharmuddin-27699327a/">
           {/* <LinkedInIcon/> */}
         </a>
-      </div>
-      <div className="a13">
-       <a href=""></a>
-      </div>
-       
-        
-       
+      </div>   
     </div>
     <h3 id='w1' >© 2024 Mohammed Sharmuddin. All rights reserved.</h3>
     </div>

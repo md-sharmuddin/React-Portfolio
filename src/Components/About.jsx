@@ -16,7 +16,7 @@ function About() {
           <span>I</span>
           <span>am</span>
           <span>a</span>
-          <span>Web</span>
+          <span>MERN</span>
           <span>Developer!</span>
         </h1>
 
